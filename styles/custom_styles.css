@@ -100,9 +100,17 @@ header .logo h2 {
     .social-btn-group{
         top:auto;bottom:20px
     }
-
-    .social-btn-group .mobile-hidden{
+    .mobile-hidden{
         display:none
+    }
+    .footer{
+      display: block;
+      width: 70%;
+    }
+    .footer .links {
+      width: 100%;
+      display: block;
+      text-align: center;
     }
 }
 
@@ -130,10 +138,11 @@ footer .links {
 
 footer .links > div {
     margin-right: 50px;
+    width: 100%;
 }
 
 footer .address {
-    width: 30%;
+    min-width: 30%;
 }
 
 .links li {
